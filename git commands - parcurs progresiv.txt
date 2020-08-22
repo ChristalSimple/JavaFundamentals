@@ -1,0 +1,57 @@
+git init
+
+git config --global user.name "ChristalSimple"
+git config --global user.email "andrei.c.szabo@gmail.com"
+
+git status
+
+git add Casa.java
+git add Dog.java
+git add Main_01_08_2020.java
+
+git status
+
+git commit -m "Materiale Training 01.08.2020"
+
+git remote add origin "https://github.com/ChristalSimple/JavaFundamentals"
+git push -u origin master
+
+git branch working_branch
+git checkout working_branch
+
+git status
+
+git add Main_02_08_2020.java
+git add Masina.java
+git commit -m "Materiale 02.08.2020"
+
+git status
+
+git diff master working_branch > diff.txt
+
+git add Teme_02_08_2020.java
+
+git status
+
+git commit -m "+ Teme_02_08_2020"
+
+git push -u origin working_branch
+
+git log > log.txt
+
+git checkout master
+
+git merge working_branch
+
+git push -u origin master
+
+git add Main_08_08_2020.java
+git commit -m "Materiale Training 08_08_2020"
+
+git add *
+
+git commit -m "Materiale 09.08.2020 + Teme"
+
+gitk&
+
+git clone https://github.com/ChristalSimple/JavaFundamentals
