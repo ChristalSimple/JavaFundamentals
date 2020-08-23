@@ -26,6 +26,13 @@ public class Casa
     private int unNumarIntreg1 = 45;
     private int unNumarIntreg2 = 15;
 
+    //Pseudo-cod
+//    private char[] innerStringChars;
+//    String(char[] someString)
+//    {
+//        innerStringChars = someString;
+//    }
+
     // Metoda membra a clasei Casa
     public int oMetodaExemplu(int variabilaParametru)
     {
